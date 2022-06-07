@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>    
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Rock+3D&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+        <h4 id="startPlayer"></h4>
+    </header>
+
+    <nav>
+        <p id="twoPlayers">Click <a href="index.html">here</a> if you are two players</p>
+    </nav>
+    
+
+    <div class="winner">
+        <p id="scoreBoard">Score Board</p>
+        <p id="Player1">Player 1:</p>
+        <p id="Player2">Computer:</p>
+    </div>
+
+    <div class="buttons">
+        <div class="namePlayer">
+            <input id="nameEnter" type="text" placeholder="Enter your name">
+            <input id="player1Name" type="button" value="Player Name">
+            
+        </div>
+    
+        <div class="playerToken">
+            <input id="tokenEnter" type="text" placeholder="Enter a letter as a token">
+            <input id="player1Token" type="button" value="Player Token">
+            
+        </div>
+    </div>
+
+     <div class="main">
+        <input id="0" class="cell" type="button">
+        <input id="1" class="cell" type="button">
+        <input id="2" class="cell" type="button">
+        <input id="3" class="cell" type="button">
+        <input id="4" class="cell" type="button">
+        <input id="5" class="cell" type="button">
+        <input id="6" class="cell" type="button">
+        <input id="7" class="cell" type="button">
+        <input id="8" class="cell" type="button">   
+    </div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <p id="winner"></p>
+            <button class='reset'type="'button">Play Again</button>
+        </div>
+        
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/single.js"></script>
+</body>
+</html>
