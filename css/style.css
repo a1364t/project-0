@@ -22,7 +22,19 @@ body {
      color: white;
  }
 
-
+@media (max-width: 480px) {
+    .cell {
+        height: 75px;
+        width: 75px;
+        margin: 0 auto;
+        font-size: 40pt;
+        font-family: 'Bitter', serif;
+        font-family: 'Rock 3D', cursive;
+        border-radius: 35%;
+        background-color: #3A3B3C;
+        color: white;
+    }
+}
 
  #scoreBoard {
     position: relative;
