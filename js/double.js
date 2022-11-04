@@ -1,5 +1,4 @@
 
-
 let turn = true;
 let box = ['','','','','','','','',''];
 let outcome = undefined;
